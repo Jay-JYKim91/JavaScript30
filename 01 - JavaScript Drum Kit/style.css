@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url('https://i.imgur.com/b9r5sEL.jpg') bottom center;
+  background: url('background.jpeg') bottom center;
   background-size: cover;
 }
 
@@ -9,38 +9,56 @@ body,html {
   padding: 0;
   font-family: sans-serif;
 }
-
-.keys {
+body {
+  min-height: 100vh;
+}
+h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 150px;
+  font-weight: 700;
+  font-family: 'Rowdies', cursive;
+  text-shadow: 0 0 .5rem black;
+}
+.line {
+  flex-wrap: wrap;
   display: flex;
   flex: 1;
-  min-height: 100vh;
+
   align-items: center;
   justify-content: center;
 }
+.keys {
+  margin: 130px 0 180px 0;
+/*  min-height: 100vh;*/
+}
 
 .key {
-  border: .4rem solid black;
-  border-radius: .5rem;
+  border: .5rem solid black;
+  border-radius: .7rem;
   margin: 1rem;
   font-size: 1.5rem;
-  padding: 1rem .5rem;
+  padding: 0.5rem;
   transition: all .07s ease;
   width: 10rem;
   text-align: center;
   color: white;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.6);
   text-shadow: 0 0 .5rem black;
 }
 
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: #d18965;
+  box-shadow: 0 0 1rem #d18965;
 }
 
 kbd {
   display: block;
-  font-size: 4rem;
+  font-size: 3rem;
+  font-family: 'Rowdies', cursive;
+  font-weight: 400;
 }
 
 .sound {
