@@ -1,7 +1,7 @@
 html {
   font-size: 10px;
-  background: url('background.png');
-  background-size: cover;
+/*  background: url('background.png');
+  background-size: cover;*/
 }
 
 body,html {
@@ -10,15 +10,31 @@ body,html {
   font-family: sans-serif;
 }
 body {
-  min-height: 90vh;
+  /*min-height: 90vh;*/
+}
+.out-box {
+  border: 1px solid black;
+  background-color: #592f1f;
+}
+.mid-box {
+  border: 1px solid #542915;
+  margin: 1.5em;
+  background-color: #542915;
+  box-shadow: 0px 0px 5px 4px #000000;
+}
+.in-box {
+  border: 1px solid black;
+  margin: 1.5em;
+  background-color: #2b4232;
+  box-shadow: -1px -1px 5px 2px #000000;
 }
 h1 {
   color: white;
   font-size: 50px;
   text-align: center;
-  margin-top: 150px;
+  margin-top: 50px;
   font-weight: 700;
-  font-family: 'Rowdies', cursive;
+  font-family: 'Tillana', cursive;
   text-shadow: 0 0 .5rem black;
 }
 .line {
@@ -30,17 +46,17 @@ h1 {
   justify-content: center;
 }
 .keys {
-  margin: 100px 0 100px 0;
+  margin: 50px 0 50px 0;
 /*  min-height: 100vh;*/
 }
 
 .key {
-  border: .5rem solid black;
+  border: .5rem solid #223527;
   border-radius: .7rem;
   margin: 1rem;
   font-size: 1.5rem;
   padding: 0.5rem;
-  transition: all .07s ease;
+  transition: all .5s ease;
   width: 10rem;
   text-align: center;
   color: white;
@@ -50,14 +66,14 @@ h1 {
 
 .playing {
   transform: scale(1.1);
-  border-color: #d18965;
-  box-shadow: 0 0 1rem #d18965;
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
 }
 
 kbd {
   display: block;
   font-size: 3rem;
-  font-family: 'Rowdies', cursive;
+  font-family: 'Tillana', cursive;
   font-weight: 400;
 }
 
